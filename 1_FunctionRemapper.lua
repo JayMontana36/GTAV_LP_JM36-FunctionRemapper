@@ -7,7 +7,7 @@ return {
 					for k,v in pairs(FunctionsToRemap) do
 						_G2[k] = _G[v]
 					end
-				end
+				end,
 	stop	=	function()
 					if JM36_GTAV_LuaPlugin_FunctionRemapper_Version then
 						_G2.JM36_GTAV_LuaPlugin_FunctionRemapper_Version = nil
